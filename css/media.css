@@ -1,0 +1,577 @@
+@media (max-width: 1600px) {
+  .card__wrapper {
+    flex-wrap: wrap;
+  }
+
+  .card__descr {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .header {
+    padding: 24px 0;
+    margin-bottom: 40px;
+  }
+
+  .container {
+    padding: 0 50px;
+  }
+
+  .header__container {
+    justify-content: space-between;
+  }
+
+  .logo_offset {
+    margin-right: 0;
+  }
+
+  .nav_offset {
+    margin-right: 0;
+  }
+
+  .logo {
+    max-width: 150px;
+  }
+
+  .nav__list {
+    gap: 60px;
+  }
+
+  .hero {
+    margin-bottom: 37px;
+  }
+
+  .hero-wrapper {
+    padding: 160px 77px;
+  }
+
+  .title {
+    margin-bottom: 17px;
+    font-size: 60px;
+    line-height: normal;
+  }
+
+  .hero__descr {
+    margin-bottom: 60px;
+    font-size: 20px;
+  }
+
+  .hero__btn {
+    padding: 25px 35px;
+    font-size: 24px;
+  }
+
+  .about {
+    margin-bottom: 77px;
+  }
+
+  .about__descr {
+    margin-bottom: 57px;
+  }
+
+  /* .card-and-benefits {
+    flex-direction: column;
+    gap: var(--gap);
+  } */
+
+  .benefits {
+    max-width: 1240px;
+    width: 100%;
+  }
+
+  .benefits__item {
+    padding: 200px 20px 20px;
+    background-position: 20px 20px;
+  }
+
+  .stages {
+    margin-bottom: 80px;
+  }
+
+  .stages__wrapper::after {
+    width: 47%;
+  }
+
+  .stages__descr {
+    margin-bottom: 25px;
+  }
+
+  .questions {
+    margin-bottom: 83px;
+  }
+
+  .questions__list {
+    flex-direction: column;
+  }
+
+  .footer {
+    padding: 50px 0;
+  }
+
+  .form {
+    padding: 0;
+    max-width: 542px;
+    margin-right: 0;
+  }
+
+  .form-btn {
+    padding: 19px 38px;
+  }
+
+  .form__input {
+    margin-bottom: 26px;
+  }
+
+  .footer__right {
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 1200px) {
+  .about {
+    margin-bottom: 78px;
+  }
+
+  .about__descr {
+    margin-bottom: 57px;
+  }
+
+  .card {
+    max-width: 100%;
+    min-height: 640px;
+    margin-right: 0;
+    border-radius: 32px;
+  }
+
+  .card__descr {
+    margin: 0;
+  }
+
+  .card-and-benefits {
+    flex-direction: column;
+    gap: var(--gap);
+  }
+
+  .benefits__item {
+    max-width: 100%;
+    padding: 65px 155px 65px 315px;
+    background-position: 77px 65px;
+  }
+
+  .stages__left {
+    max-width: 450px;
+  }
+
+  .questions {
+    margin-bottom: 78px;
+  }
+
+  .questions__item {
+    padding: 64px 60px;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .header {
+    border-radius: 24px;
+    padding: 15px 0;
+  }
+
+  .logo {
+    max-width: 110px;
+  }
+
+  .nav__list {
+    gap: 43px;
+  }
+
+  .nav__link {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .hero-wrapper {
+    padding: 160px 40px;
+    border-radius: 24px;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  .hero__descr {
+    font-size: 18px;
+    margin-bottom: 63px;
+  }
+
+  .hero__btn {
+    font-size: 23px;
+    padding: 25px 39px;
+  }
+
+  .benefits__item {
+    padding: 35px 46px 35px 168px;
+    background-size: 114px 99px;
+    background-position: 40px 68px;
+  }
+
+  .card__wrapper {
+    flex-wrap: nowrap;
+  }
+
+  .card {
+    max-width: 100%;
+    min-height: 650px;
+    margin-right: 0;
+    border-radius: 24px;
+  }
+
+  .card__wrapper {
+    padding: 34px 40px;
+    border-radius: 24px;
+  }
+
+  .stages__wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .stages__wrapper::after {
+    width: 100%;
+    margin-bottom: 43px;
+    max-width: 100%;
+    min-height: 284px;
+    border-radius: 24px;
+  }
+
+  .stages__title {
+    margin-bottom: 26px;
+  }
+
+  .stages__left {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .stages__descr {
+    max-width: 100%;
+    margin-bottom: 23px;
+  }
+
+  .stages__btn1 {
+    margin-right: 27px;
+  }
+
+  .questions__item {
+    padding: 34px 40px;
+  }
+
+  .footer__container {
+    flex-direction: column-reverse;
+  }
+
+  .footer__list {
+    display: none;
+  }
+
+  .form {
+    max-width: 960px;
+    width: 100%;
+    margin-bottom: 48px;
+  }
+
+  .form__input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .header {
+    padding-bottom: 40px;
+    border-radius: 16px;
+    margin-bottom: 18px;
+  }
+
+  .header__container {
+    flex-wrap: wrap;
+  }
+
+  .nav {
+    order: 3;
+    width: 100%;
+    padding-top: 20px;
+    overflow-x: scroll;
+  }
+
+  .nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav__list {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-wrapper {
+    padding: 60px 22px;
+    border-radius: 16px;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .section-descr {
+    font-size: 14px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .hero {
+    margin-bottom: 60px;
+  }
+
+  .hero__descr {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 130%;
+  }
+
+  .hero__btn {
+    display: block;
+    margin: 0 auto;
+    padding: 13px 28px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .about {
+    margin-bottom: 60px;
+  }
+
+  .about__descr {
+    line-height: 200%;
+    margin-bottom: 14px;
+  }
+
+  .card {
+    min-height: 0;
+    background-image: none;
+  }
+
+  .card__wrapper::before {
+    margin-bottom: 8px;
+    content: "";
+    width: 100%;
+    min-height: 200px;
+    border-radius: 16px;
+    background-image: url("../img/card-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .card__wrapper {
+    padding: 0;
+    background-color: transparent;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card__descr {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 12px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 200% */
+  }
+
+  .card__btn {
+    border-radius: 8px;
+    border: 2px solid var(--yellow);
+    align-self: flex-start;
+    padding: 9px 30px;
+    color: var(--yellow);
+  }
+
+  .benefits__item {
+    padding: 62px 0 0;
+    border: none;
+    background-size: 64px 60px;
+    background-position: top left;
+  }
+
+  .benefits__subtitle {
+    margin-bottom: 4px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .benefits__descr {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 198%;
+  }
+
+  .stages {
+    margin-bottom: 58px;
+  }
+
+  .stages__title {
+    margin-bottom: 18px;
+  }
+
+  .stages__wrapper::after {
+    margin-bottom: 20px;
+    width: 100%;
+    min-height: 160px;
+    border-radius: 16px;
+  }
+
+  .stages__btns {
+    display: flex;
+    gap: 10px;
+  }
+
+  .stages__btn1 {
+    margin-right: 0px;
+    border-radius: 8px;
+    padding: 12px 44px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .stages__btn2 {
+    border-radius: 8px;
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .stages__descr {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 200% */
+  }
+
+  .questions {
+    margin-bottom: 59px;
+  }
+
+  .questions__item {
+    padding: 0;
+    border: none;
+  }
+
+  .questions__card-title {
+    margin-bottom: 5px;
+  }
+
+  .questions__card-descr {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 200% */
+  }
+
+  .footer {
+    padding: 30px 0;
+  }
+
+  .form {
+    margin-bottom: 24px;
+  }
+
+  .form-checkbtn {
+    display: block;
+  }
+
+  .form__input {
+    margin-bottom: 24px;
+  }
+
+  .form__input_textarea {
+    margin-bottom: 20px;
+  }
+
+  .form-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-btn {
+    margin-right: 0;
+    margin-bottom: 11px;
+    padding: 13px 19px;
+    border-radius: 8px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .form-check-input::after {
+    top: 0;
+  }
+
+  .footer__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 640px;
+    padding-top: 16px;
+    border-top: 1px solid #414141;
+  }
+
+  .logo-light {
+    max-width: 132px;
+    transform: translateX(-11px);
+    margin-bottom: 2px;
+  }
+
+  .footer__socials {
+    gap: 16px;
+  }
+
+  .social-link svg {
+    max-width: 40px;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .nav__list {
+    gap: 18px;
+  }
+}
